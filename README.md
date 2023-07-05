@@ -1,2 +1,2 @@
 # Wait-Group
-A Java implementation of Golang's wait group interface
+A Java implementation of Golang's [WaitGroup](https://pkg.go.dev/sync#WaitGroup) interface
