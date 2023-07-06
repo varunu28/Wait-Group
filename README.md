@@ -1,6 +1,9 @@
 # Wait-Group
 A Java implementation of Golang's [WaitGroup](https://pkg.go.dev/sync#WaitGroup) interface
 
+![image](resources/hourglass.jpg)
+
+## What does this implementation covers?
  - Java implementation for all the methods exposed by `WaitGroup` interface
  - `WaitGroup` is reusable as per the interface contract
  - Panic exception in case `WaitGroup` counter reaches a negative value
