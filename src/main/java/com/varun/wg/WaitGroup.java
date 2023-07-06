@@ -13,15 +13,15 @@ public interface WaitGroup {
      *
      * @param delta an integer value of number of processes to be added to the WaitGroup.
      */
-    void add(int delta);
+    void add(int delta) throws WaitGroupPanicException, InterruptedException;
 
     /**
      * Decrements WaitGroup counter by one.
      */
-    void done();
+    void done() throws WaitGroupPanicException, InterruptedException;
 
     /**
      * Blocks until WaitGroup counter reaches zero.
      */
-    void wgWait();
+    void wgWait() throws InterruptedException;
 }
