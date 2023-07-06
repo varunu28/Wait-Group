@@ -1,5 +1,7 @@
 package com.varun.wg;
 
+import com.varun.wg.exception.WaitGroupPanicException;
+import com.varun.wg.impl.WaitGroupImpl;
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.CountDownLatch;

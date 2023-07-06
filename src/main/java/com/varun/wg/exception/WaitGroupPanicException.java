@@ -1,4 +1,4 @@
-package com.varun.wg;
+package com.varun.wg.exception;
 
 public class WaitGroupPanicException extends RuntimeException {
 

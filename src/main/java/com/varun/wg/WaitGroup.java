@@ -1,5 +1,7 @@
 package com.varun.wg;
 
+import com.varun.wg.exception.WaitGroupPanicException;
+
 /**
  * WaitGroup waits for a collection of processes to finish. This interface is a 1:1 mapping to Golang's
  * interface. @see <a href="https://pkg.go.dev/sync#WaitGroup">Interface description</a>.

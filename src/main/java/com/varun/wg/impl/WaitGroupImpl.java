@@ -1,4 +1,7 @@
-package com.varun.wg;
+package com.varun.wg.impl;
+
+import com.varun.wg.WaitGroup;
+import com.varun.wg.exception.WaitGroupPanicException;
 
 import java.util.concurrent.Semaphore;
 
